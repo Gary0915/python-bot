@@ -1,9 +1,7 @@
 from linebot import LineBotApi, WebhookHandler
 from linebot.models import TextSendMessage, StickerSendMessage, ImageSendMessage, LocationSendMessage
 import requests, statistics, json, time
-from flask import Flask, request, abort
 
-app = Flask(__name__)
 access_token = 'U1WInxZ0t325PAjM7LPyjbACWWxvrk9jyFeU+eC2JGipJ5cYK7xwM+Dm2gzSFgipG+ia5iIh8+sROBtOtpQISvm8Jax+il463PQLMer7iwPxsjS4zrKmzYGH2DjnIHgcarPfvMaSZsyj5RZo9sywOgdB04t89/1O/w1cDnyilFU='
 channel_secret = '6c4a6bbf5f9f762a7e231af8d1ce529f'
 
